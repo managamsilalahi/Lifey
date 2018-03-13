@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/KurioApp/Specs.git'
+
+platform :ios, '9.0'
+# ignore all warnings from all pods
+inhibit_all_warnings!
+use_frameworks!
+
+def shared_pods
+    pod 'SDWebImage'
+end
+
+def testing_pods
+    pod 'Quick', :inhibit_warnings => true
+    pod 'Nimble', :inhibit_warnings => true
+end
+
+target 'Lifey' do
+    shared_pods
+end
+
+target 'LifeyTests' do
+    inherit! :search_paths
+    
+    shared_pods
+    testing_pods
+end

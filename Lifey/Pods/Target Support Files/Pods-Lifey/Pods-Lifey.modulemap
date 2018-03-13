@@ -1,0 +1,6 @@
+framework module Pods_Lifey {
+  umbrella header "Pods-Lifey-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA521C52B16CF0A5D1A2D13 /* Pods_Lifey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BE9334DD0C0863370BE308 /* Pods_Lifey.framework */; };
 		5B69040B20581FA9003C0FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69040A20581FA9003C0FD3 /* AppDelegate.swift */; };
 		5B69040D20581FA9003C0FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69040C20581FA9003C0FD3 /* ViewController.swift */; };
 		5B69041020581FA9003C0FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B69040E20581FA9003C0FD3 /* Main.storyboard */; };
 		5B69041220581FAA003C0FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B69041120581FAA003C0FD3 /* Assets.xcassets */; };
 		5B69041520581FAA003C0FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B69041320581FAA003C0FD3 /* LaunchScreen.storyboard */; };
+		5B69042320582091003C0FD3 /* LifeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69042220582091003C0FD3 /* LifeyTests.swift */; };
+		B2152FFD50D176239DADA7EC /* Pods_LifeyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA17423E4423C751F0826E /* Pods_LifeyTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B69042520582091003C0FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6903FF20581FA9003C0FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B69040620581FA9003C0FD3;
+			remoteInfo = Lifey;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		08BE9334DD0C0863370BE308 /* Pods_Lifey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lifey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3B40BABEC3D84E9292D1D1 /* Pods-Lifey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lifey/Pods-Lifey.release.xcconfig"; sourceTree = "<group>"; };
+		4A90E4EB23448305A342455B /* Pods-Lifey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lifey/Pods-Lifey.debug.xcconfig"; sourceTree = "<group>"; };
 		5B69040720581FA9003C0FD3 /* Lifey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B69040A20581FA9003C0FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B69040C20581FA9003C0FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,12 @@
 		5B69041120581FAA003C0FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B69041420581FAA003C0FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B69041620581FAA003C0FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B69042020582091003C0FD3 /* LifeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B69042220582091003C0FD3 /* LifeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeyTests.swift; sourceTree = "<group>"; };
+		5B69042420582091003C0FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DA17423E4423C751F0826E /* Pods_LifeyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E9F326706469DEB0FB66AB /* Pods-LifeyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeyTests/Pods-LifeyTests.release.xcconfig"; sourceTree = "<group>"; };
+		986FC2E6ED4B122C64AEFAAD /* Pods-LifeyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeyTests/Pods-LifeyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA521C52B16CF0A5D1A2D13 /* Pods_Lifey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69041D20582091003C0FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2152FFD50D176239DADA7EC /* Pods_LifeyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46E5AA6582BED13883F615C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A90E4EB23448305A342455B /* Pods-Lifey.debug.xcconfig */,
+				1E3B40BABEC3D84E9292D1D1 /* Pods-Lifey.release.xcconfig */,
+				986FC2E6ED4B122C64AEFAAD /* Pods-LifeyTests.debug.xcconfig */,
+				81E9F326706469DEB0FB66AB /* Pods-LifeyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B6903FE20581FA9003C0FD3 = {
 			isa = PBXGroup;
 			children = (
 				5B69040920581FA9003C0FD3 /* Lifey */,
+				5B69042120582091003C0FD3 /* LifeyTests */,
 				5B69040820581FA9003C0FD3 /* Products */,
+				46E5AA6582BED13883F615C3 /* Pods */,
+				9D6B7FB9D56D1BD46CD172AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5B69040720581FA9003C0FD3 /* Lifey.app */,
+				5B69042020582091003C0FD3 /* LifeyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +110,24 @@
 			path = Lifey;
 			sourceTree = "<group>";
 		};
+		5B69042120582091003C0FD3 /* LifeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B69042220582091003C0FD3 /* LifeyTests.swift */,
+				5B69042420582091003C0FD3 /* Info.plist */,
+			);
+			path = LifeyTests;
+			sourceTree = "<group>";
+		};
+		9D6B7FB9D56D1BD46CD172AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BE9334DD0C0863370BE308 /* Pods_Lifey.framework */,
+				66DA17423E4423C751F0826E /* Pods_LifeyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B69041920581FAA003C0FD3 /* Build configuration list for PBXNativeTarget "Lifey" */;
 			buildPhases = (
+				9091763C6635DADF9A2CFF72 /* [CP] Check Pods Manifest.lock */,
 				5B69040320581FA9003C0FD3 /* Sources */,
 				5B69040420581FA9003C0FD3 /* Frameworks */,
 				5B69040520581FA9003C0FD3 /* Resources */,
+				466FF457FDC53E607950CABB /* [CP] Embed Pods Frameworks */,
+				26C58865D29A38F89127304D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +150,27 @@
 			productName = Lifey;
 			productReference = 5B69040720581FA9003C0FD3 /* Lifey.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5B69041F20582091003C0FD3 /* LifeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B69042920582091003C0FD3 /* Build configuration list for PBXNativeTarget "LifeyTests" */;
+			buildPhases = (
+				80E449A3FE914AEA9FA2EC33 /* [CP] Check Pods Manifest.lock */,
+				5B69041C20582091003C0FD3 /* Sources */,
+				5B69041D20582091003C0FD3 /* Frameworks */,
+				5B69041E20582091003C0FD3 /* Resources */,
+				B066D6EE6E0090862CFEBF6D /* [CP] Embed Pods Frameworks */,
+				4B9DB344832D89AA659CEE06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B69042620582091003C0FD3 /* PBXTargetDependency */,
+			);
+			name = LifeyTests;
+			productName = LifeyTests;
+			productReference = 5B69042020582091003C0FD3 /* LifeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +184,10 @@
 				TargetAttributes = {
 					5B69040620581FA9003C0FD3 = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					5B69041F20582091003C0FD3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5B69040620581FA9003C0FD3;
 					};
 				};
 			};
@@ -113,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				5B69040620581FA9003C0FD3 /* Lifey */,
+				5B69041F20582091003C0FD3 /* LifeyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +221,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B69041E20582091003C0FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C58865D29A38F89127304D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lifey/Pods-Lifey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		466FF457FDC53E607950CABB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lifey/Pods-Lifey-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lifey/Pods-Lifey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B9DB344832D89AA659CEE06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeyTests/Pods-LifeyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E449A3FE914AEA9FA2EC33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9091763C6635DADF9A2CFF72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lifey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B066D6EE6E0090862CFEBF6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LifeyTests/Pods-LifeyTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeyTests/Pods-LifeyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B69040320581FA9003C0FD3 /* Sources */ = {
@@ -140,7 +349,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B69041C20582091003C0FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B69042320582091003C0FD3 /* LifeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B69042620582091003C0FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B69040620581FA9003C0FD3 /* Lifey */;
+			targetProxy = 5B69042520582091003C0FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B69040E20581FA9003C0FD3 /* Main.storyboard */ = {
@@ -277,16 +502,14 @@
 		};
 		5B69041A20581FAA003C0FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A90E4EB23448305A342455B /* Pods-Lifey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H79DK722NN;
 				INFOPLIST_FILE = Lifey/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.managam.Lifey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,20 +519,54 @@
 		};
 		5B69041B20581FAA003C0FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3B40BABEC3D84E9292D1D1 /* Pods-Lifey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H79DK722NN;
 				INFOPLIST_FILE = Lifey/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.managam.Lifey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B69042720582091003C0FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986FC2E6ED4B122C64AEFAAD /* Pods-LifeyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H79DK722NN;
+				INFOPLIST_FILE = LifeyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.managam.LifeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lifey.app/Lifey";
+			};
+			name = Debug;
+		};
+		5B69042820582091003C0FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E9F326706469DEB0FB66AB /* Pods-LifeyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H79DK722NN;
+				INFOPLIST_FILE = LifeyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.managam.LifeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lifey.app/Lifey";
 			};
 			name = Release;
 		};
@@ -330,6 +587,15 @@
 			buildConfigurations = (
 				5B69041A20581FAA003C0FD3 /* Debug */,
 				5B69041B20581FAA003C0FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B69042920582091003C0FD3 /* Build configuration list for PBXNativeTarget "LifeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B69042720582091003C0FD3 /* Debug */,
+				5B69042820582091003C0FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
